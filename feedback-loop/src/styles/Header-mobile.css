@@ -6,7 +6,6 @@
     .header-title {
         flex:2;
         text-align: center;
-
     }
     
     .logo{
@@ -22,19 +21,17 @@
 } */
 
 /* --iphone X -- */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+/* @media only screen and (min-device-width: 750px) 
+   { 
 
     .Header{
-        flex-direction: column;
-        width: 100%; 
-        padding: 0px;   
+        
+        flex-direction: column!important;
+        padding: 0px; 
     }
 
     .header-title {
-        flex:2;
+       
         text-align: center;
             
     } 
@@ -49,7 +46,16 @@
     }
 
     .UserDropdown {
+       flex-direction: column;
+    }
+
+    .Searchbar {
+
         align-items: center;
-    } 
-    
-}
+        width: 8rem;
+        margin: 1rem;
+    }
+
+    .add-post-button
+
+} */
