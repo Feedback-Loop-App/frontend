@@ -8,6 +8,7 @@ import logo from '../../../logo-5.png';
 
 function Header(props) {
     return (
+    
         <div className='Header'>
             <div className='logo-and-title-div'>
                 <div>
@@ -26,8 +27,8 @@ function Header(props) {
                 <AddPost />
                 <UserDropdown />
             </div>
-            
         </div>
+    
     );
 }
 
