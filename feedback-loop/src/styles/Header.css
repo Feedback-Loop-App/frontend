@@ -468,7 +468,7 @@ and (max-width: 1024px)
 }
 
 
-/* iPad Pro*/
+/* iPad Pro double check*/
 @media only screen and (min-width :1023px)
 and (max-width: 1366px) 
 {
