@@ -120,49 +120,123 @@
     background-color: rgb(34, 99, 34);
 }
 
-/* 
+
+/* smaller device */
 @media only screen 
-  and (min-width: 320px)
-  and (max-width: 375px)
+  and (min-width: 230px)
+  and (max-width: 229px)
   
    { 
-
     .Header{
         display: flex;
-        flex-direction: column;    
+        flex-direction: column;
+        padding: 7px; 
     }
 
     .header-title {
-        font-size: 1.5rem;
+        text-align: center;
+            
     } 
-
     .logo {
-        width: 5.5rem;
-        margin-right: 0.3rem;
+        width: 3.8rem;
+        margin-right: 0.8rem;
     }
+
+     .title {
+        font-size:0.7rem;
+        margin: auto;
+    } 
 
     .UserDropdown {
        flex-direction: column;
     }
-    
+
+    .searchbar-input {
+        width: 20rem;
+        margin: 0.2rem;
+    }
+
     .Searchbar {
-        width: 10%;
         justify-content: center;
-        margin: 5px 0;
-           
+        align-items: center;
+        margin: 0.5rem;
+    }
+
+    .user-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
     }
 
     .add-post-button {
-        width: 7rem;
-        height: 1.9rem;
+        margin: 0.2rem;   
     }
 
     .user-login-button{
-        margin: 0rem 1rem;
-        width: 8rem;
-        height: 1.9rem;
+        margin: 0rem 0.8rem;
     }
-}  */
+} 
+
+
+/* Galaxy 55 */
+@media only screen 
+  and (min-width: 230px)
+  and (max-width: 319px)
+  
+   { 
+    .Header{
+        display: flex;
+        flex-direction: column;
+        padding: 7px; 
+    }
+
+    .header-title {
+        text-align: center;
+            
+    } 
+    .logo {
+        width: 3.8rem;
+        margin-right: 0.8rem;
+    }
+
+     .title {
+        font-size:0.7rem;
+        margin: auto;
+    } 
+
+    .UserDropdown {
+       flex-direction: column;
+    }
+
+    .searchbar-input {
+        width: 20rem;
+        margin: 0.2rem;
+    }
+
+    .Searchbar {
+        justify-content: center;
+        align-items: center;
+        margin: 0.5rem;
+    }
+
+    .user-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .add-post-button {
+        margin: 0.2rem;   
+    }
+
+    .user-login-button{
+        margin: 0rem 0.8rem;
+    }
+} 
+
+
 
 
 /* iPhone 5 */
@@ -181,7 +255,7 @@ and (max-device-width: 373px)
             
     } 
     .logo {
-        width: 3.5rem;
+        width: 3.3rem;
         margin-right: 0.8rem;
     }
 
@@ -195,7 +269,7 @@ and (max-device-width: 373px)
     }
 
     .searchbar-input {
-        width: 12rem;
+        width: 12.5rem;
         margin: 0.5rem;
     }
 
@@ -213,8 +287,7 @@ and (max-device-width: 373px)
     }
 
     .add-post-button {
-        margin: 0.5rem;
-       
+        margin: 0.3rem;   
     }
 
     .user-login-button{
@@ -338,3 +411,113 @@ and (max-width: 736px)
             margin: 0rem 1rem;
         }
 }
+
+/* iPad*/
+@media only screen and (min-width :735px)
+and (max-width: 1024px) 
+{
+    
+        .Header
+        {
+            display: flex;
+            padding: 10px; 
+        }
+    
+        .header-title {
+            text-align: center;
+                
+        } 
+        .logo {
+            width: 5rem;
+            margin-right: 1rem;
+        }
+    
+         .title {
+            font-size: medium;
+            margin: auto;
+        } 
+    
+        .UserDropdown {
+           flex-direction: column;
+        }
+    
+        .searchbar-input {
+            width: 20rem;
+            margin: 0.5rem;
+        }
+
+        .searchbar-submit {
+            margin: 0.5rem auto;
+        }
+    
+        .user-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 1.5rem
+        }
+    
+        .add-post-button {
+            margin: 0.5rem;
+           
+        }
+    
+        .user-login-button{
+            margin: 0rem 1rem;
+        }
+}
+
+
+/* iPad Pro*/
+@media only screen and (min-width :1023px)
+and (max-width: 1366px) 
+{
+        .Header
+        {
+            display: flex;
+            padding: 15px; 
+        }
+    
+
+        .logo {
+            width: 7rem;
+            margin-right: 1rem;
+        }
+    
+         .title {
+            font-size: large;
+            margin: auto;
+        } 
+    
+        .UserDropdown {
+           flex-direction: column;
+        }
+    
+
+        .searchbar-input {
+            width: 35rem;
+            margin: 0.5rem;
+        }
+
+        .searchbar-submit {
+            margin: 0.5rem auto;
+            margin-right: 3rem;
+        }
+    
+        .user-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 1.5rem
+        }
+    
+        .add-post-button {
+            margin: 0.2rem;
+        }
+    
+        .user-login-button{
+            margin: 0rem 2rem;
+            
+        }
+}
+
